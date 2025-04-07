@@ -1,0 +1,47 @@
+ body {
+                padding: 0px;
+                margin: 0px;
+                background-image:url("OIP.jpg");
+                background-repeat: no-repeat;
+                 background-size: cover;
+                width: 100vw;
+                height: 100vh;
+            }
+
+            .nav{
+              background-color: rgb(43, 27, 91);
+              color: white;
+              display:flex;
+              justify-content: space-between;
+              padding: 10px 20px;
+            }
+
+            .nav_content ul{
+              display:inline-flex;
+              list-style-type: none;
+            }
+
+            .nav_content li{
+              padding:  10px;
+
+            }
+
+            .nav_content a{
+              color: white;
+              text-decoration: none;
+              font-size: 17px;
+            }
+
+            .nav_content a:hover{
+              text-shadow: 4px 4px 3px rgb(5, 226, 193);
+            }
+            .nav_content a:active{
+             color: aqua;
+            }
+
+            @media screen and (max-width : 650px) {
+               .nav_content ul{
+                display: block;
+               }
+            }
+

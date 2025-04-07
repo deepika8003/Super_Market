@@ -1,0 +1,15 @@
+ body{
+        padding: 0px;
+        margin: 0px;
+        background:linear-gradient(black,blue, black);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 93.5vh;
+      }
+
+      #form{
+       border-radius: 7px;
+       background-color: rgb(199, 223, 234);
+       box-shadow: 4px 4px 6px rgb(23, 25, 29);
+      }
